@@ -4,11 +4,8 @@ import HeaderOne from '../common/header/HeaderOne';
 import SEO from '../common/SEO';
 import AboutOne from '../component/about/AboutOne';
 import BannerOne from '../component/banner/BannerOne';
-import BlogOne from '../component/blog/BlogOne';
-import BrandOne from '../component/brand/BrandOne';
 import CounterUpOne from '../component/counterup/CounterUpOne';
 import CtaLayoutOne from '../component/cta/CtaLayoutOne';
-import PricingOne from '../component/pricing/PricingOne';
 import ProjectOne from '../component/project/ProjectOne';
 import ServicePropOne from '../component/service/ServicePropOne';
 import TestimonialOne from '../component/testimonial/TestimonialOne';
@@ -20,7 +17,7 @@ const DigitalAgency = () => {
 
     return (
         <>
-            <SEO title="Digital Agency" />
+            <SEO title="Car Rental Nagpur" />
             <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderOne />
@@ -30,8 +27,7 @@ const DigitalAgency = () => {
                         <SectionTitle
                             subtitle="What We Can Do For You"
                             title="Services we can help you with"
-                            description="Nulla facilisi. Nullam in magna id dolor 
-                        blandit rutrum eget vulputate augue sed eu imperdiet."
+                            description="We Offer several services to our clients and customers from Nagpur to all over India"
                             textAlignment="heading-light-left"
                             textColor=""
                         />
@@ -49,25 +45,6 @@ const DigitalAgency = () => {
                 <ProjectOne />
                 <CounterUpOne />
                 <TestimonialOne />
-                <div className="section bg-color-light section-padding">
-                    <div className="container">
-                        <SectionTitle
-                            subtitle="Pricing Plan"
-                            title="We’ve built solutions for..."
-                            description="Flexible pricing options for freelancers
-                        and design teams."
-                            textAlignment=""
-                            textColor=""
-                        />
-                        <PricingOne />
-                    </div>
-                    <ul className="list-unstyled shape-group-3">
-                        <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/line-1.png"} alt="shape" /></li>
-                        <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/bubble-4.png"} alt="shape" /></li>
-                    </ul>
-                </div>
-                <BrandOne />
-                <BlogOne />
                 <CtaLayoutOne />
                 <FooterOne parentClass="" />
             </main>

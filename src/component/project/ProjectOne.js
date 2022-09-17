@@ -3,19 +3,18 @@ import ProjectPropOne from './itemProp/ProjectPropOne';
 import SectionTitle from '../../elements/section-title/SectionTitle';
 import ProjectData from "../../data/project/ProjectData.json";
 
-
 const filters = [
 	{
 		id: 1,
-		label: "All Works",
+		label: "Cars",
     },
     {
 		id: 2,
-		label: "Branding",
+		label: "Luxury Rides",
     },
     {
 		id: 3,
-		label: "Mobile",
+		label: "Giant Rides",
     }
 ];
 
@@ -29,7 +28,7 @@ const ProjectOne = ({parentClass, colSize, itemShow, columnGap}) => {
 	const [visiableProject] = useState(itemShow ? itemShow : 6);
     const [activeFilter, setActiveFilter] = useState("");
 	const [visibleItems, setVisibleItems] = useState([]);
-	
+
 
 	useEffect(() => {
         setActiveFilter(filters[0].label);
@@ -49,10 +48,10 @@ const ProjectOne = ({parentClass, colSize, itemShow, columnGap}) => {
 			for (let i = 0; i < getAllItems.length; i++) {
 				const element = getAllItems[i];
 				let categories = element['category'];
-				
+
 				if (categories.includes(target)) {
 					tempData.push(element)
-				} 
+				}
 			}
         }
         setVisibleItems(tempData);
@@ -63,24 +62,21 @@ const ProjectOne = ({parentClass, colSize, itemShow, columnGap}) => {
 		<>
 			<div className={`section section-padding-2 ${parentClass ? parentClass : ""}`}>
                 <div className="container">
-                <SectionTitle 
-                        subtitle="Our Project"
-                        title="Some of our <br>
-                        finest work."
+                <SectionTitle
+                        subtitle="Our Fleets"
+                        title="Some of our <br/> fleets"
                         textAlignment="heading-left mb--40"
                         textColor=""
                     />
                     <div className="isotope-button isotope-project-btn">
-
 						{filters.map((filter) => (
 							<button onClick={handleChange} className={
 								filter.label === activeFilter
 								? "is-checked"
 								: " "
-							} 
+							}
 							key={filter.id}>{filter.label}</button>
 						))}
-
 					</div>
 					<div className={`row ${columnGap ? columnGap : "row-35"}`}>
 						{visibleItems.map((data) => (

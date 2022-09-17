@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import Logo from '../../elements/logo/Logo';
 import Nav from '../../common/header/Nav';
 import OffcanvasMenu from './OffcanvasMenu';
@@ -32,7 +32,6 @@ const HeaderOne = () => {
         }
     }
 
-
     return (
         <>
             <header className="header axil-header header-style-1">
@@ -40,23 +39,16 @@ const HeaderOne = () => {
                     <div className="container">
                         <div className="header-navbar">
                             <div className="header-logo">
-                                <Logo limage="/images/logo.svg"
-                                    dimage="/images/logo-3.svg"
-                                    simage="/images/logo-2.svg"
+                                <Logo limage="/images/LightLogo.png"
+                                      dimage="/images/DarkLogo.png"
+                                      simage="/images/LightLogo.png"
                                 />
                             </div>
                             <div className="header-main-nav">
-                                <Nav />
+                                <Nav/>
                             </div>
                             <div className="header-action">
                                 <ul className="list-unstyled">
-                                    {/* <li className="sidemenu-btn d-lg-block d-none">
-                                        <button className="btn-wrap" onClick={OffcanvasHandleShow}>
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </button>
-                                    </li> */}
                                     <li className="mobile-menu-btn sidemenu-btn d-lg-none d-block">
                                         <button className="btn-wrap" onClick={MobileMenuHandler}>
                                             <span></span>
@@ -65,7 +57,7 @@ const HeaderOne = () => {
                                         </button>
                                     </li>
                                     <li className="my_switcher d-block d-lg-none">
-                                        <SwitcherHeader />
+                                        <SwitcherHeader/>
                                     </li>
                                 </ul>
                             </div>
@@ -73,8 +65,8 @@ const HeaderOne = () => {
                     </div>
                 </div>
             </header>
-            <OffcanvasMenu offcanvasShow={showOffcanvas} offcanvasHide={OffcanvasHandleClose} />
-            <MobileMenu MobileHandler={MobileMenuHandler} />
+            <OffcanvasMenu offcanvasShow={showOffcanvas} offcanvasHide={OffcanvasHandleClose}/>
+            <MobileMenu MobileHandler={MobileMenuHandler}/>
         </>
     )
 }

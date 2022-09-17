@@ -177,7 +177,7 @@
             .large-thumb {
                 @media #{$laptop-device} {
                     img {
-                        width: 74%;
+                        width: 100%;
                     }
                 }
                 @media #{$sm-layout} {
@@ -297,7 +297,7 @@
             }
         }
         .banner-thumbnail {
-           margin-right: -120px;
+           margin-right: 0px;
            text-align: right;
             @media #{$laptop-device} {
                 margin-right: 0;

@@ -3,7 +3,7 @@
 -------------------------*/
 :root {
 // Color
---color-primary: #5956E9;
+--color-primary: #276678;
 --color-white: #ffffff;
 --color-black: #000000;
 --color-light: #ECF2F6;
@@ -12,15 +12,15 @@
 --color-accent1: #FFDC60;
 --color-accent2: #FAB8C4;
 
---color-blue-shade: #6865FF;
---color-link: #2522BA;
+--color-blue-shade: #1687A7;
+--color-link: #231955;
 --color-mabel: #DBF8FF;
 --color-fog: #DBDEFF;
 --color-pink-shade: #FFD3DB;
 --color-peach: #FFEDDC;
 --color-rose: #C75C6F;
 
---color-chart1: #896BA7;
+--color-chart1: #D3E0EA;
 --color-chart2: #BADEFF;
 
 --color-body: #525260;
@@ -35,7 +35,7 @@
 
 // Gradient Color
 --gradient-primary: linear-gradient(90deg, #ECF2F6 0%, rgba(236, 242, 246, 0) 70.31%);
---gradient-blue: linear-gradient(145.92deg, #5956E9 20.18%, #9991FF 76.9%);
+--gradient-blue: linear-gradient(145.92deg, #276678 20.18%, #D3E0EA 76.9%);
 --gradient-accent: linear-gradient(180deg, #FAB8C4 0%, #FFEDF0 100%);
 --gradient-white: linear-gradient(266.3deg, rgba(236, 242, 246, 0) 7.84%, #ECF2F6 29.1%, rgba(236, 242, 246, 0) 64.32%);
 --gradient-dark: linear-gradient(180deg, #27272E 0%, #303035 100%);
