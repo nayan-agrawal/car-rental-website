@@ -1,76 +1,44 @@
 [
-
-    {
-        "fromtext": "Yelp",
-        "from": "/images/icon/yelp-2.png",
-        "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
-        "authorimg": "/images/testimonial/testimonial-1.png",
-        "authorname": "Darrell Steward",
-        "authordesig": "Executive Chairman"
-    },
-    {
-        "fromtext": "Google",
-        "from": "/images/icon/google-2.png",
-        "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
-        "authorimg": "/images/testimonial/testimonial-2.png",
-        "authorname": "Savannah Nguyen",
-        "authordesig": "Executive Chairman"
-    },
-    {
-        "fromtext": "Facebook",
-        "from": "/images/icon/fb-2.png",
-        "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
-        "authorimg": "/images/testimonial/testimonial-3.png",
-        "authorname": "Floyd Miles",
-        "authordesig": "Executive Chairman"
-    },
-    {
-        "fromtext": "Yelp",
-        "from": "/images/icon/yelp-2.png",
-        "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
-        "authorimg": "/images/testimonial/testimonial-1.png",
-        "authorname": "Darrell Steward",
-        "authordesig": "Executive Chairman"
-    },
-    {
-        "fromtext": "Google",
-        "from": "/images/icon/google-2.png",
-        "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
-        "authorimg": "/images/testimonial/testimonial-2.png",
-        "authorname": "Savannah Nguyen",
-        "authordesig": "Executive Chairman"
-    },
-    {
-        "fromtext": "Facebook",
-        "from": "/images/icon/fb-2.png",
-        "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
-        "authorimg": "/images/testimonial/testimonial-3.png",
-        "authorname": "Floyd Miles",
-        "authordesig": "Executive Chairman"
-    },
-    {
-        "fromtext": "Yelp",
-        "from": "/images/icon/yelp-2.png",
-        "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
-        "authorimg": "/images/testimonial/testimonial-1.png",
-        "authorname": "Darrell Steward",
-        "authordesig": "Executive Chairman"
-    },
-    {
-        "fromtext": "Google",
-        "from": "/images/icon/google-2.png",
-        "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
-        "authorimg": "/images/testimonial/testimonial-2.png",
-        "authorname": "Savannah Nguyen",
-        "authordesig": "Executive Chairman"
-    },
-    {
-        "fromtext": "Facebook",
-        "from": "/images/icon/fb-2.png",
-        "description": "“ Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”",
-        "authorimg": "/images/testimonial/testimonial-3.png",
-        "authorname": "Floyd Miles",
-        "authordesig": "Executive Chairman"
-    }
-
+  {
+    "fromtext": "Google",
+    "from": "/images/icon/google-2.png",
+    "description": "I highly recommend this.. In the early morning, amidst heavy rains, they did pick up and drop as promised.. Also all calls even at midnight were promptly and positively answered.... Very good services..",
+    "authorimg": "/images/testimonial/testimonial-1.png",
+    "authorname": "Suddesh Sharma"
+  },
+  {
+    "fromtext": "Google",
+    "from": "/images/icon/google-2.png",
+    "description": "Very good taxi service in Nagpur. I booked for panchmarhi. Driver Ganesh was having very good driving skill. I will always prefer to go with Driver Ganesh.",
+    "authorimg": "/images/testimonial/testimonial-1.png",
+    "authorname": "Tarun Sagar"
+  },
+  {
+    "fromtext": "Google",
+    "from": "/images/icon/google-2.png",
+    "description": "I needed a car in the middle of the night, they sent the car on time, the driver and the car ridng was very comfortable, next time I will get the car done from here.",
+    "authorimg": "/images/testimonial/testimonial-1.png",
+    "authorname": "Gourav Choudhary"
+  },
+  {
+    "fromtext": "Google",
+    "from": "/images/icon/google-2.png",
+    "description": "Driver and his driving both were good. He was polite and and prompt on  services",
+    "authorimg": "/images/testimonial/testimonial-1.png",
+    "authorname": "Chitralekha Nikam"
+  },
+  {
+    "fromtext": "Google",
+    "from": "/images/icon/google-2.png",
+    "description": "Professional service, driver was punctual, soft spoken & helpful too. Awesome experience",
+    "authorimg": "/images/testimonial/testimonial-1.png",
+    "authorname": "Gaurav Goenka"
+  },
+  {
+    "fromtext": "Google",
+    "from": "/images/icon/google-2.png",
+    "description": "Good service provided as per the requirement\nEvery arrangement and vehicle was as per time",
+    "authorimg": "/images/testimonial/testimonial-1.png",
+    "authorname": "PRATEEK SINHA"
+  }
 ]

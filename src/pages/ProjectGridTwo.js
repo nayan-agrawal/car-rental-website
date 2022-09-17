@@ -24,7 +24,7 @@ const ProjectGridTwo = () => {
                 mainThumb="/images/banner/banner-thumb-1.png"
             />
             <ProjectOne colSize="col-xl-4 col-md-6" columnGap="row-15"/>
-            <CtaLayoutOne />
+            {/*<CtaLayoutOne />*/}
             <FooterOne parentClass="" />
         </main>
         </>

@@ -17,27 +17,66 @@ const FooterOne = ({parentClass}) => {
                             <div className="footer-widget border-end">
                                 <div className="footer-newsletter">
                                     <h2 className="title">Get in touch!</h2>
-                                    <p>Fusce varius, dolor tempor interdum tristique, dui urna bib endum magna, ut ullamcorper purus</p>
-                                    <form>
-                                        <div className="input-group">
-                                            <span className="mail-icon"><FaEnvelopeOpen /> </span>
-                                            <input type="email" className="form-control" placeholder="Email address" />
-                                            <button className="subscribe-btn" type="submit">Subscribe</button>
+                                    <div className="row">
+                                        <div className="col-xl-6 col-lg-5">
+                                            <div className="d-flex p-3 border border-1 my-2">
+                                                HO NO 531/A/28
+                                                Gujarwadimothi Vihir
+                                                Nagpur-440012
+                                            </div>
+                                            <div className="d-flex p-3 border border-1 my-2">
+                                                76, Karve Nagar,
+                                                Wardha Road,
+                                                Nagpur-440015
+                                            </div>
+                                            <div className="d-flex p-3 border border-1 my-2">
+                                                H. No. 1206/A/30
+                                                Adarshnagar, Zopadpatti
+                                                Nagpur - 440008
+                                            </div>
                                         </div>
-                                    </form>
+                                        <div className="col-xl-6 col-lg-5">
+                                            <div className="d-flex p-3 border border-1 my-2">
+                                                PL NO. 159,
+                                                Naik Nagarring Road,
+                                                Nagpur-440027
+                                            </div>
+                                            <div className="d-flex p-3 border border-1 my-2">
+                                                P. No. 63, Jagrutti nagar Opp.
+                                                Garjana Bar Jaripatka,
+                                                Nagpur-440008
+                                            </div>
+                                            <div className="d-flex p-3 border border-1 my-2">
+                                                Plot No. 95,
+                                                Rahi Lands Developers,
+                                                Beltarodi, Nagpur-440037
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-7">
                             <div className="row">
-                                <div className="col-sm-6">
-                                    <div className="footer-widget">
-                                        <h6 className="widget-title">Services</h6>
-                                        <div className="footer-menu-link">
+                                <div className="footer-widget">
+                                    <h6 className="widget-title">Services</h6>
+                                    <div className="footer-menu-link row">
+                                        <div className="col-xl-6 col-lg-5">
                                             <ul className="list-unstyled">
-                                                {getServiceData.slice(0, 6).map((data, index) => (
+                                                {getServiceData.slice(0, 5).map((data, index) => (
                                                     <li key={index}>
-                                                        <Link to={process.env.PUBLIC_URL + `/service-details/${slugify(data.title)}`}>{data.title}</Link>
+                                                        <Link
+                                                            to={process.env.PUBLIC_URL + `/service-details/${slugify(data.title)}`}>{data.title}</Link>
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                        <div className="col-xl-6 col-lg-5">
+                                            <ul className="list-unstyled">
+                                                {getServiceData.slice(5, -1).map((data, index) => (
+                                                    <li key={index}>
+                                                        <Link
+                                                            to={process.env.PUBLIC_URL + `/service-details/${slugify(data.title)}`}>{data.title}</Link>
                                                     </li>
                                                 ))}
                                             </ul>

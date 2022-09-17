@@ -12,20 +12,17 @@ import CounterUpTwo from '../component/counterup/CounterUpTwo';
 
 
 const ServiceTwo = () => {
-
-
     return (
         <>
-            <SEO title="Service Two"/>
+            <SEO title="Services"/>
             <ColorSwitcher/>
             <main className="main-wrapper">
                 <HeaderOne/>
                 <BcrumbBannerOne
-                    title="Best solutions for your business"
-                    paragraph="Give your business a unique logo to stand out from crowd. We’ll create logo specifically for your company.
-                "
+                    title="Best car rental services for needs"
+                    paragraph="Choose one of your services to travel from Nagpur with a ride of your choice safely and with pride."
                     styleClass=""
-                    mainThumb="/images/banner/banner-thumb-4.png"
+                    mainThumb="/images/banner/services-banner.svg"
                 />
                 <CounterUpTwo/>
                 <div className="section section-padding bg-color-light">
@@ -46,7 +43,7 @@ const ServiceTwo = () => {
 
                 <AboutThree/>
 
-                <CtaLayoutOne/>
+                {/*<CtaLayoutOne/>*/}
                 <FooterOne parentClass=""/>
             </main>
         </>

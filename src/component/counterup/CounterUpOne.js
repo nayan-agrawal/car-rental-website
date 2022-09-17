@@ -8,9 +8,9 @@ const CounterUpOne = () => {
         <div className="section section-padding bg-color-dark">
             <div className="container">
             <SectionTitle 
-                    subtitle="Featured Case Study"
-                    title="Design startup movement"
-                    description="In vel varius turpis, non dictum sem. Aenean in efficitur ipsum, in egestas ipsum. Mauris in mi ac tellus."
+                    subtitle="Our Journey so far"
+                    title="Laxmi Car Rental movement"
+                    description="This is what we have achieved over a decade from our customers support."
                     textAlignment="heading-light"
                     textColor=""
                 />

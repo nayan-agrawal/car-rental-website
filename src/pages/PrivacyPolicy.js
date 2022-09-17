@@ -70,7 +70,7 @@ const PrivacyPolicy = () => {
                         </div>
                     </div>
                 </div>
-                <CtaLayoutOne />
+                {/*<CtaLayoutOne />*/}
             <FooterOne parentClass="" />
             </main>
         </>

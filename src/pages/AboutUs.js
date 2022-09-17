@@ -29,7 +29,7 @@ const AboutUs = () => {
                 <AboutThree />
                 <AboutFive />
                 <ProcessOne />
-                <CtaLayoutOne />
+                {/*<CtaLayoutOne />*/}
                 <FooterOne parentClass="" />
             </main>
         </>

@@ -105,7 +105,7 @@ const Testimonials = () => {
                     </div>
                 </div>
 
-                <CtaLayoutOne />
+                {/*<CtaLayoutOne />*/}
                 <FooterOne parentClass="" />
             </main>
         </>

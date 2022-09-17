@@ -42,7 +42,7 @@ const TermsOfUse = () => {
                     </div>
                 </div>
 
-                <CtaLayoutOne />
+                {/*<CtaLayoutOne />*/}
             <FooterOne parentClass="" />
             </main>
         </>

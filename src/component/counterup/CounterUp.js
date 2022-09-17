@@ -8,28 +8,28 @@ const Data = [
         light_icon: "/images/icon/icon-7.png",
         dark_icon: "/images/icon/icon-10.png",
         countNum: 15,
-        text: "Years of operation"
+        text: "Drivers"
     },
     {  
         id: 2,
         light_icon: "/images/icon/icon-8.png",
         dark_icon: "/images/icon/icon-11.png",
-        countNum: 360,
-        text: "Projects deliverd"
+        countNum: 150000,
+        text: "Kilometers Travelled"
     },
     {  
         id: 3,
         light_icon: "/images/icon/icon-9.png",
         dark_icon: "/images/icon/icon-12.png",
-        countNum: 600,
-        text: "Specialist"
+        countNum: 5000,
+        text: "Customers"
     },
     {  
         id: 4,
         light_icon: "/images/icon/apple.png",
         dark_icon: "/images/icon/apple-black.png",
-        countNum: 64,
-        text: "Years of operation"
+        countNum: 10,
+        text: "Years of Experience"
     }
    
 ];

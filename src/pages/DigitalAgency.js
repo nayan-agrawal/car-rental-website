@@ -45,7 +45,7 @@ const DigitalAgency = () => {
                 <ProjectOne />
                 <CounterUpOne />
                 <TestimonialOne />
-                <CtaLayoutOne />
+                {/*<CtaLayoutOne />*/}
                 <FooterOne parentClass="" />
             </main>
         </>

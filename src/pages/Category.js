@@ -38,7 +38,7 @@ const BlogCategory = () => {
                         </div>
                     </div>
                 </div>
-                <CtaLayoutOne />
+                {/*<CtaLayoutOne />*/}
             <FooterOne parentClass="" />
             </main>
         </>

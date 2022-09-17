@@ -97,8 +97,9 @@
         @media #{$laptop-device} {
             right: -50px; 
             bottom: -80px;
+            width: 55%;
             img {
-                width: 90%;
+                width: 100%;
             }
         }
         @media #{$smlg-device} {
