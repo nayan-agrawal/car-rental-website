@@ -5,32 +5,30 @@ import SEO from '../common/SEO';
 import BcrumbBannerOne from '../elements/breadcrumb/BcrumbBannerOne';
 import CtaLayoutOne from '../component/cta/CtaLayoutOne';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
-import ProcessOne from '../component/process/ProcessOne';
 import AboutThree from '../component/about/AboutThree';
 import AboutFour from '../component/about/AboutFour';
-import AboutFive from '../component/about/AboutFive';
+import TestimonialOne from "../component/testimonial/TestimonialOne";
 
 
 const AboutUs = () => {
 
     return (
         <>
-        <SEO title="About us" />
-        <ColorSwitcher />
+            <SEO title="About us"/>
+            <ColorSwitcher/>
             <main className="main-wrapper">
-                <HeaderOne />
-                <BcrumbBannerOne 
-                title="One of the fastest growing agency"
-                paragraph ="We design and develop web and mobile applications for our clients worldwide."
-                styleClass="thumbnail-4"
-                mainThumb="/images/banner/banner-thumb-3.png"
+                <HeaderOne/>
+                <BcrumbBannerOne
+                    title="One of the most trustworthy car rental services"
+                    paragraph="We provide cars on rent from Nagpur to all over India with best police verified drivers out there at best rates."
+                    styleClass="thumbnail-4"
+                    mainThumb="/images/banner/car-rental-about-us-banner-1.svg"
                 />
-                <AboutFour />
-                <AboutThree />
-                <AboutFive />
-                <ProcessOne />
+                <AboutFour/>
+                <AboutThree/>
+                <TestimonialOne />
                 {/*<CtaLayoutOne />*/}
-                <FooterOne parentClass="" />
+                <FooterOne parentClass=""/>
             </main>
         </>
     )

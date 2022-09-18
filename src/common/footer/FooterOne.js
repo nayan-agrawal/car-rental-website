@@ -1,13 +1,23 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { FaFacebookF, FaTwitter, FaPinterestP, FaLinkedin, FaInstagram, FaVimeoV, FaDribbble, FaBehance, FaEnvelopeOpen } from "react-icons/fa";
+import {Link} from 'react-router-dom';
+import {
+    FaFacebookF,
+    FaTwitter,
+    FaPinterestP,
+    FaLinkedin,
+    FaInstagram,
+    FaVimeoV,
+    FaDribbble,
+    FaBehance,
+    FaEnvelopeOpen
+} from "react-icons/fa";
 import ServiceData from "../../data/service/ServiceMain.json";
-import { slugify } from '../../utils';
+import {slugify} from '../../utils';
 
 const getServiceData = ServiceData;
 
 const FooterOne = ({parentClass}) => {
-    
+
     return (
         <footer className={`footer-area ${parentClass}`}>
             <div className="container">
@@ -19,38 +29,36 @@ const FooterOne = ({parentClass}) => {
                                     <h2 className="title">Get in touch!</h2>
                                     <div className="row">
                                         <div className="col-xl-6 col-lg-5">
-                                            <div className="d-flex p-3 border border-1 my-2">
-                                                HO NO 531/A/28
+                                            <p>HO NO 531/A/28
                                                 Gujarwadimothi Vihir
-                                                Nagpur-440012
-                                            </div>
-                                            <div className="d-flex p-3 border border-1 my-2">
+                                                Nagpur-440012</p>
+                                            <p>
                                                 76, Karve Nagar,
                                                 Wardha Road,
                                                 Nagpur-440015
-                                            </div>
-                                            <div className="d-flex p-3 border border-1 my-2">
+                                            </p>
+                                            <p>
                                                 H. No. 1206/A/30
                                                 Adarshnagar, Zopadpatti
                                                 Nagpur - 440008
-                                            </div>
+                                            </p>
                                         </div>
                                         <div className="col-xl-6 col-lg-5">
-                                            <div className="d-flex p-3 border border-1 my-2">
+                                            <p>
                                                 PL NO. 159,
                                                 Naik Nagarring Road,
                                                 Nagpur-440027
-                                            </div>
-                                            <div className="d-flex p-3 border border-1 my-2">
+                                            </p>
+                                            <p>
                                                 P. No. 63, Jagrutti nagar Opp.
                                                 Garjana Bar Jaripatka,
                                                 Nagpur-440008
-                                            </div>
-                                            <div className="d-flex p-3 border border-1 my-2">
+                                            </p>
+                                            <p>
                                                 Plot No. 95,
                                                 Rahi Lands Developers,
                                                 Beltarodi, Nagpur-440037
-                                            </div>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -87,11 +95,12 @@ const FooterOne = ({parentClass}) => {
                         </div>
                     </div>
                 </div>
-                <div className="footer-bottom"> 
+                <div className="footer-bottom">
                     <div className="row">
                         <div className="col-md-6">
                             <div className="footer-copyright">
-                                <span className="copyright-text">© {new Date().getFullYear()}. All rights reserved by <a href="https://axilthemes.com/">Laxmi Car Rental</a>.</span>
+                                <span className="copyright-text">© {new Date().getFullYear()}. All rights reserved by <a
+                                    href="https://axilthemes.com/">Laxmi Car Rental</a>.</span>
                             </div>
                         </div>
                     </div>
