@@ -21,7 +21,6 @@ const TestimonialItem = ({colSize, itemShow}) => {
                             </div>
                             <div className="content">
                                 <span className="name">{data.authorname}</span>
-                                <span className="designation">{data.authordesig}</span>
                             </div>
                         </div>
                     </div>

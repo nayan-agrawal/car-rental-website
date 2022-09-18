@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import CounterUp from './CounterUp';
 
 
@@ -12,13 +12,16 @@ const CounterUpTwo = () => {
                         <div className="section-heading heading-left">
                             <span className="subtitle">Experts in field</span>
                             <h2>What makes us special?</h2>
-                            <p className="mb--50">In vel varius turpis, non dictum sem. Aenean in efficitur ipsum, in egestas ipsum. Mauris in mi ac tellus.</p>
-                            <Link to={process.env.PUBLIC_URL + "/contact"} className="axil-btn btn-large btn-fill-primary">Careers</Link>
+                            <p className="mb--50">Our police verified, highly skilled drivers, 24 x 7 and well
+                                maintained cars are factors that makes our service one of the top services in
+                                Nagpur.</p>
+                            <a href="tel: +919423959655"
+                                  className="axil-btn btn-large btn-fill-primary">Book Now</a>
                         </div>
                     </div>
                     <div className="col-lg-6 offset-xl-1">
                         <div className="row">
-                            <CounterUp colSize="col-sm-6" layoutStyle="counterup-style-2" evenTopMargin="" />
+                            <CounterUp colSize="col-sm-6" layoutStyle="counterup-style-2" evenTopMargin=""/>
                         </div>
                     </div>
                 </div>

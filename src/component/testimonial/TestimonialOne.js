@@ -9,7 +9,7 @@ const TestimonialOne = () => {
                 <SectionTitle 
                     subtitle="Testimonial"
                     title="From getting started"
-                    description="Nulla facilisi. Nullam in magna id dolor blandit rutrum eget vulputate augue sed eu leo eget risus imperdiet."
+                    description="This is what our customers say about us."
                     textAlignment="heading-left"
                     textColor=""
                 />

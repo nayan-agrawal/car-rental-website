@@ -11,10 +11,6 @@ const filters = [
     {
 		id: 2,
 		label: "Luxury Rides",
-    },
-    {
-		id: 3,
-		label: "Giant Rides",
     }
 ];
 
@@ -25,7 +21,7 @@ const AllData = ProjectData;
 const ProjectOne = ({parentClass, colSize, itemShow, columnGap}) => {
 
 	const [getAllItems] = useState(AllData);
-	const [visiableProject] = useState(itemShow ? itemShow : 6);
+	const [visiableProject] = useState(itemShow ? itemShow : 18);
     const [activeFilter, setActiveFilter] = useState("");
 	const [visibleItems, setVisibleItems] = useState([]);
 

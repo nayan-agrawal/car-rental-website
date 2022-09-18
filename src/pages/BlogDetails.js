@@ -145,7 +145,7 @@ const BlogDetails = () => {
                         </div>
                     </div>
                 </div>
-                <CtaLayoutOne />
+                {/*<CtaLayoutOne />*/}
             <FooterOne parentClass="" />
             </main>
         </>

@@ -42,10 +42,10 @@ const DigitalAgency = () => {
                     </ul>
                 </div>
                 <AboutOne />
-                <ProjectOne />
+                <ProjectOne itemShow="6"/>
                 <CounterUpOne />
                 <TestimonialOne />
-                <CtaLayoutOne />
+                {/*<CtaLayoutOne />*/}
                 <FooterOne parentClass="" />
             </main>
         </>

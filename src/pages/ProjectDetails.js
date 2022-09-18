@@ -25,7 +25,7 @@ const ProjectDetails = () => {
 
     return (
         <>
-        <SEO title="Project Details"/>
+        <SEO title="Car Details"/>
         <ColorSwitcher />
         <main className="main-wrapper">
             <HeaderOne />
@@ -84,7 +84,7 @@ const ProjectDetails = () => {
                 </div>
             </section>
             <VideoOne />
-            <CtaLayoutOne />
+            {/*<CtaLayoutOne />*/}
         <FooterOne parentClass="" />
         </main>
         </>
