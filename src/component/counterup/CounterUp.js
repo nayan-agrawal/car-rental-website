@@ -15,20 +15,20 @@ const Data = [
         light_icon: "/images/icon/icon-8.png",
         dark_icon: "/images/icon/icon-11.png",
         countNum: 150000,
-        text: "Kilometers Travelled"
+        text: "Kilometers Travelled per year"
     },
     {  
         id: 3,
         light_icon: "/images/icon/icon-9.png",
         dark_icon: "/images/icon/icon-12.png",
-        countNum: 5000,
+        countNum: 10000,
         text: "Customers"
     },
     {  
         id: 4,
         light_icon: "/images/icon/apple.png",
         dark_icon: "/images/icon/apple-black.png",
-        countNum: 10,
+        countNum: 25,
         text: "Years of Experience"
     }
    
