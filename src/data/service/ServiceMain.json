@@ -1,62 +1,57 @@
 [
     {
-        "image": "/images/icon/icon-1.png",
+        "image": "/images/icon/wedding.png",
         "title": "Wedding Car Rental Nagpur",
-        "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library."
+        "description": "We at Laxmi Car Rental provides luxurious ride for a most important day of your life."
     },
     {
-        "image": "/images/icon/icon-2.png",
+        "image": "/images/icon/corporate-icon.png",
         "title": "Corporate Car Rental Nagpur",
-        "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library."
+        "description": "We at Laxmi car rental provides corporate car rental services for you at best and competitive rates."
     },
     {
-        "image": "/images/icon/icon-3.png",
+        "image": "/images/icon/outstation-icon.png",
         "title": "Outstation Car Rental Nagpur",
-        "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library."
+        "description": "Want to travel with your friends or family outstation at extreme comfort. Book a car on rent with experienced drivers."
     },
     {
-        "image": "/images/icon/icon-4.png",
+        "image": "/images/icon/luxury-car.png",
         "title": "Luxury Car Rental Nagpur",
-        "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library."
+        "description": "Travel in luxury and style with laxmi car rental luxury car rental services at best prices."
     },
     {
-        "image": "/images/icon/icon-5.png",
+        "image": "/images/icon/nagpur-tour.png",
         "title": "Nagpur Tour",
-        "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library."
+        "description": "Want to take a tour of Nagpur with comfort of luxury and at best prices. Book a car with Laxmi car rental."
     },
     {
-        "image": "/images/icon/icon-6.png",
+        "image": "/images/icon/taxi-booking.png",
         "title": "Taxi Booking in Nagpur",
-        "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library."
+        "description": "Need a taxi for small visits and occasions. We are here for you. Book a car now to enjoy the ride at best prices"
     },
     {
-        "image": "/images/icon/icon-29.png",
+        "image": "/images/icon/family-picnic.png",
         "title": "Family Trips and Picnics",
-        "description": "We design professional looking yet simple Logo. Our designs are search engine and user friendly.",
-        "cate": "Design"
+        "description": "Want to visit nearby areas of Nagpur and enjoy with your family. Book a car of your choice with us and enjoy while making memories."
     },
     {
-        "image": "/images/icon/icon-27.png",
+        "image": "/images/icon/bus-booking.png",
         "title": "Bus Booking",
-        "description": "We design professional looking yet simple Logo. Our designs are search engine and user friendly.",
-        "cate": "Design"
+        "description": "Want to book a bus at your comfort without any online process and efforts. Just give us a call to help you with that."
     },
     {
-        "image": "/images/icon/icon-28.png",
+        "image": "/images/icon/hotel-booking.png",
         "title": "Hotel Booking",
-        "description": "We design professional looking yet simple Logo. Our designs are search engine and user friendly.",
-        "cate": "Design"
+        "description": "Want to book a hotel at your comfort without any online process and efforts. Just give us a call to help you with that."
     },
     {
-        "image": "/images/icon/icon-4.png",
+        "image": "/images/icon/flight-booking.png",
         "title": "Flight Booking",
-        "description": "We design professional looking yet simple Logo. Our designs are search engine and user friendly.",
-        "cate": "Design"
+        "description": "Want to book a flight at your comfort without any online process and efforts. Just give us a call to help you with that."
     },
     {
-        "image": "/images/icon/icon-30.png",
+        "image": "/images/icon/train-booking.png",
         "title": "Train Tickets",
-        "description": "We design professional looking yet simple Logo. Our designs are search engine and user friendly.",
-        "cate": "Design"
+        "description": "Want to book a train at your comfort without any online process and efforts. Just give us a call to help you with that."
     }
 ]

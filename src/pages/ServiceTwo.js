@@ -35,7 +35,7 @@ const ServiceTwo = () => {
                             textColor=""
                         />
                         <div className="row">
-                            <ServicePropOne colSize="col-lg-4 col-md-6" serviceStyle="service-style-2" itemShow="6"
+                            <ServicePropOne colSize="col-lg-4 col-md-6" serviceStyle="service-style-2"
                                             marginTop="no"/>
                         </div>
                     </div>

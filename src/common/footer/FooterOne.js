@@ -66,7 +66,7 @@ const FooterOne = ({parentClass}) => {
                                                 {getServiceData.slice(0, 5).map((data, index) => (
                                                     <li key={index}>
                                                         <Link
-                                                            to={process.env.PUBLIC_URL + `/service-details/${slugify(data.title)}`}>{data.title}</Link>
+                                                            to={process.env.PUBLIC_URL + `/services`}>{data.title}</Link>
                                                     </li>
                                                 ))}
                                             </ul>
@@ -76,7 +76,7 @@ const FooterOne = ({parentClass}) => {
                                                 {getServiceData.slice(5, -1).map((data, index) => (
                                                     <li key={index}>
                                                         <Link
-                                                            to={process.env.PUBLIC_URL + `/service-details/${slugify(data.title)}`}>{data.title}</Link>
+                                                            to={process.env.PUBLIC_URL + `/services`}>{data.title}</Link>
                                                     </li>
                                                 ))}
                                             </ul>
@@ -92,14 +92,6 @@ const FooterOne = ({parentClass}) => {
                         <div className="col-md-6">
                             <div className="footer-copyright">
                                 <span className="copyright-text">© {new Date().getFullYear()}. All rights reserved by <a href="https://axilthemes.com/">Laxmi Car Rental</a>.</span>
-                            </div>
-                        </div>
-                        <div className="col-md-6">
-                            <div className="footer-bottom-link">
-                                <ul className="list-unstyled">
-                                    <li><Link to={process.env.PUBLIC_URL + "/privacy-policy"}>Privacy Policy</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + "/terms-use"}>Terms of Use</Link></li>
-                                </ul>
                             </div>
                         </div>
                     </div>
