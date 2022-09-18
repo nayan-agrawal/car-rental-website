@@ -7,7 +7,7 @@ const Data = [
         id: 1,
         light_icon: "/images/icon/icon-7.png",
         dark_icon: "/images/icon/icon-10.png",
-        countNum: 15,
+        countNum: 70,
         text: "Drivers"
     },
     {  
