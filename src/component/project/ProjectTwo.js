@@ -26,7 +26,7 @@ const ProjectTwo = () => {
 
             </div>
             <div className="more-project-btn">
-                <Link to={process.env.PUBLIC_URL + "/project-grid-two"} className="axil-btn btn-fill-white">Discover More Projects</Link>
+                <Link to={process.env.PUBLIC_URL + "/portfolio"} className="axil-btn btn-fill-white">Discover More Projects</Link>
             </div>
         </div>
     </div>

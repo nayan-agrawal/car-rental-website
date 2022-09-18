@@ -25,7 +25,7 @@ const ProjectDetails = () => {
 
     return (
         <>
-        <SEO title="Project Details"/>
+        <SEO title="Car Details"/>
         <ColorSwitcher />
         <main className="main-wrapper">
             <HeaderOne />

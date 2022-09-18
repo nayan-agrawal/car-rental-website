@@ -12,21 +12,20 @@ const ProjectGridTwo = () => {
 
     return (
         <>
-        <SEO title="Project Three Column" />
-        <ColorSwitcher />
-        <main className="main-wrapper">
-            <HeaderOne />
-            <BcrumbBannerOne 
-                title="Our Projects"
-                paragraph ="A quick view of industry specific problems solved with design by the awesome team at Abstrak.
-                "
-                styleClass=""
-                mainThumb="/images/banner/banner-thumb-1.png"
-            />
-            <ProjectOne colSize="col-xl-4 col-md-6" columnGap="row-15"/>
-            {/*<CtaLayoutOne />*/}
-            <FooterOne parentClass="" />
-        </main>
+            <SEO title="Portfolio"/>
+            <ColorSwitcher/>
+            <main className="main-wrapper">
+                <HeaderOne/>
+                <BcrumbBannerOne
+                    title="Our fleets"
+                    paragraph="A quick view of some of our cars from our large car inventory. You can pick a car of your choice."
+                    styleClass=""
+                    mainThumb="/images/banner/cars-wallpaper.png"
+                />
+                <ProjectOne colSize="col-xl-4 col-md-6" columnGap="row-15"/>
+                {/*<CtaLayoutOne />*/}
+                <FooterOne parentClass=""/>
+            </main>
         </>
     )
 }

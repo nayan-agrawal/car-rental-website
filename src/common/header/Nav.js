@@ -10,7 +10,7 @@ const Nav = () => {
                     <Link to={process.env.PUBLIC_URL + "/services"}>Services </Link>
                 </li>
                 <li className="menu-item-has-children">
-                    <Link to={process.env.PUBLIC_URL + "/project-grid-two"}>Portfolio </Link>
+                    <Link to={process.env.PUBLIC_URL + "/portfolio"}>Portfolio </Link>
                 </li>
                 <li className="menu-item-has-children">
                     <Link to={process.env.PUBLIC_URL + "/about-us"}>About Us </Link>

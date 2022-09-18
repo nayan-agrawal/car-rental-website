@@ -1,12 +1,10 @@
 [
   {
     "id": 1,
-    "image": "/images/project/project-1.png",
-    "title": "Creative Agency",
+    "image": "/images/portfolio/swift-dzire.webp",
+    "title": "Swift Dzire",
     "category": [
-      "Branding",
-      "Website",
-      "App"
+      "Cars"
     ],
     "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
     "body": [
@@ -16,12 +14,10 @@
   },
   {
     "id": 2,
-    "image": "/images/project/project-2.png",
-    "title": "Digital Marketing",
+    "image": "/images/portfolio/tata-zest.png",
+    "title": "Tata Zest",
     "category": [
-      "Logo",
-      "Website",
-      "Mobile"
+      "Cars"
     ],
     "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
     "body": [
@@ -31,11 +27,10 @@
   },
   {
     "id": 3,
-    "image": "/images/project/project-3.png",
-    "title": "Digital Agency",
+    "image": "/images/portfolio/honda-city.webp",
+    "title": "Honda City",
     "category": [
-      "Website",
-      "UI/UX"
+      "Cars"
     ],
     "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
     "body": [
@@ -45,12 +40,10 @@
   },
   {
     "id": 4,
-    "image": "/images/project/project-4.png",
-    "title": "Plan Management",
+    "image": "/images/portfolio/honda-amaze.webp",
+    "title": "Honda Amaze",
     "category": [
-      "Branding",
-      "Website",
-      "Mobile"
+      "Cars"
     ],
     "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
     "body": [
@@ -60,11 +53,10 @@
   },
   {
     "id": 5,
-    "image": "/images/project/project-5.png",
-    "title": "Social Engagement",
+    "image": "/images/portfolio/tata-indigo.webp",
+    "title": "Tata Indigo",
     "category": [
-      "Design",
-      "Development"
+      "Cars"
     ],
     "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
     "body": [
@@ -74,12 +66,10 @@
   },
   {
     "id": 6,
-    "image": "/images/project/project-6.png",
-    "title": "Web Application",
+    "image": "/images/portfolio/toyota-etios.webp",
+    "title": "Toyota Etios",
     "category": [
-      "Logo",
-      "Webapp",
-      "Mobile"
+      "Cars"
     ],
     "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
     "body": [
@@ -89,12 +79,10 @@
   },
   {
     "id": 7,
-    "image": "/images/project/project-5.png",
-    "title": "Creative Agency",
+    "image": "/images/portfolio/scorpio.webp",
+    "title": "Mahindra Scorpio",
     "category": [
-      "Branding",
-      "Website",
-      "App"
+      "Cars"
     ],
     "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
     "body": [
@@ -104,12 +92,10 @@
   },
   {
     "id": 8,
-    "image": "/images/project/project-6.png",
-    "title": "Digital Marketing",
+    "image": "/images/portfolio/chevrolet-tavera.png",
+    "title": "Chevrolet Tavera",
     "category": [
-      "Logo",
-      "Website",
-      "Mobile"
+      "Cars"
     ],
     "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
     "body": [
@@ -119,11 +105,10 @@
   },
   {
     "id": 9,
-    "image": "/images/project/project-4.png",
-    "title": "Digital Agency",
+    "image": "/images/portfolio/maruti-ertiga.webp",
+    "title": "Maruti Ertiga",
     "category": [
-      "Website",
-      "UI/UX"
+      "Cars"
     ],
     "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
     "body": [
@@ -133,12 +118,10 @@
   },
   {
     "id": 10,
-    "image": "/images/project/project-3.png",
-    "title": "Plan Management",
+    "image": "/images/portfolio/toyota-innova.webp",
+    "title": "Toyota Innova",
     "category": [
-      "Branding",
-      "Website",
-      "Mobile"
+      "Cars"
     ],
     "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
     "body": [
@@ -148,11 +131,10 @@
   },
   {
     "id": 11,
-    "image": "/images/project/project-2.png",
-    "title": "Social Engagement",
+    "image": "/images/portfolio/audi-a4.webp",
+    "title": "Audi A4",
     "category": [
-      "Design",
-      "Development"
+      "Luxury Rides"
     ],
     "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
     "body": [
@@ -162,12 +144,10 @@
   },
   {
     "id": 12,
-    "image": "/images/project/project-1.png",
-    "title": "Web Application",
+    "image": "/images/portfolio/audi-a6.webp",
+    "title": "Audi A6",
     "category": [
-      "Logo",
-      "Webapp",
-      "Mobile"
+      "Luxury Rides"
     ],
     "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
     "body": [
@@ -177,11 +157,10 @@
   },
   {
     "id": 13,
-    "image": "/images/project/project-7.png",
-    "title": "Mark Design",
+    "image": "/images/portfolio/bmw-3-series.png",
+    "title": "BMW 3 Series",
     "category": [
-      "ios",
-      "Design"
+      "Luxury Rides"
     ],
     "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
     "body": [
@@ -191,11 +170,10 @@
   },
   {
     "id": 14,
-    "image": "/images/project/project-8.png",
-    "title": "Abastrak Agency",
+    "image": "/images/portfolio/bmw-5-series.webp",
+    "title": "BMW 5 Series",
     "category": [
-      "ios",
-      "Design"
+      "Luxury Rides"
     ],
     "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
     "body": [
@@ -205,11 +183,10 @@
   },
   {
     "id": 15,
-    "image": "/images/project/project-9.png",
-    "title": "Archi- Online platform",
+    "image": "/images/portfolio/mercedes-c-class.webp",
+    "title": "Mercedes C Class",
     "category": [
-      "ios",
-      "design"
+      "Luxury Rides"
     ],
     "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
     "body": [
@@ -219,11 +196,10 @@
   },
   {
     "id": 16,
-    "image": "/images/project/project-12.png",
-    "title": "Wordpress theme",
+    "image": "/images/portfolio/mercedes-e-class.webp",
+    "title": "Mercedes E Class",
     "category": [
-      "ios",
-      "design"
+      "Luxury Rides"
     ],
     "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
     "body": [
@@ -233,10 +209,10 @@
   },
   {
     "id": 17,
-    "image": "/images/project/project-10.png",
-    "title": "Product photography",
+    "image": "/images/portfolio/jaguar-xf.webp",
+    "title": "Jaguar XF",
     "category": [
-      "2021"
+      "Luxury Rides"
     ],
     "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
     "body": [
@@ -246,10 +222,10 @@
   },
   {
     "id": 18,
-    "image": "/images/project/project-11.png",
-    "title": "Illustration",
+    "image": "/images/portfolio/jaguar-xf.webp",
+    "title": "Jaguar F Pess",
     "category": [
-      "2020"
+      "Luxury Rides"
     ],
     "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
     "body": [
