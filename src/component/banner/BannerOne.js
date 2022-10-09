@@ -14,7 +14,7 @@ const BannerOne = () => {
                                 <h1 className="title">Book a car on rent in Nagpur.</h1>
                                 <span className="subtitle">Call us to book a car on rent to travel in India from Nagpur with a ride of your choice.</span>
                                 <a href="tel: +919423959655"
-                                      className="axil-btn btn-fill-primary btn-large">Book Now</a>
+                                   className="axil-btn btn-fill-primary btn-large">Book Now</a>
                             </AnimationOnScroll>
                         </div>
                     </div>
@@ -22,7 +22,8 @@ const BannerOne = () => {
                         <div className="banner-thumbnail">
                             <AnimationOnScroll animateIn="zoomIn" duration={2} delay={300} animateOnce={true}>
                                 <div className="large-thumb">
-                                    <img src={process.env.PUBLIC_URL + "/images/banner/BannerIlustration.svg"} alt="Laptop"/>
+                                    <img src={process.env.PUBLIC_URL + "/images/banner/BannerIlustration.svg"}
+                                         alt="Laptop"/>
                                 </div>
                             </AnimationOnScroll>
                         </div>

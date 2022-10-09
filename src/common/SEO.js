@@ -1,19 +1,26 @@
 import React from 'react'
 import PropTypes from "prop-types";
+import {Helmet} from "react-helmet";
 
-const SEO = ( {title} ) => {
+const SEO = ( {title, metaDescription, metaKeywords} ) => {
     return (
         <>
-            <meta charSet="utf-8" />
-            <title>Laxmi | {title}</title>
-            <meta name="robots" content="noindex, follow" />
-            <meta name="description" content="Creative Agency, Corporate and Portfolio React JS Template" />
-            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Laxmi Car Rental Nagpur | {title}</title>
+                <meta name="robots" content="noindex, follow" />
+                <meta name="description" content={metaDescription} />
+                <meta name="keywords" content={metaKeywords} />
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+                <link rel="canonical" href="https://carrentalnagpur.in.net/" />
+            </Helmet>
         </>
     )
 }
 SEO.propTypes = {
-    title: PropTypes.string
+    title: PropTypes.string,
+    metaDescription: PropTypes.string,
+    metaKeywords: PropTypes.string
 };
 
 export default SEO;
